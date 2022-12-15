@@ -12,7 +12,7 @@ for (let i = 0; i < limit; i++) {
 
 for (let i = 0; i < limit; i++) {
   for (let j = 0; j < limit; j++) {
-    if (array[i] < array[j]) {
+    if (array[i] > array[j]) {
       array[i] = array[i] + array[j];
       array[j] = array[i] - array[j];
       array[i] = array[i] - array[j];

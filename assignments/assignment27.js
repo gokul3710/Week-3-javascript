@@ -1,9 +1,8 @@
 var readlineSync = require("readline-sync");
 
-let height = +readlineSync.question("Enter you height : ");
-console.log(height);
+let height = +readlineSync.question("Enter your height : ")
 try {
-    if(height === NaN){
+    if(isNaN(height)){
         throw new Error("notANumberError")
     }
     else if(height>200){
