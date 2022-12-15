@@ -1,5 +1,5 @@
-var read=require('readline-sync')
-let choice=Number(read.question('enter a number:'))
+var readlineSync=require('readline-sync')
+let choice=Number(readlineSync.question('enter a number:'))
 switch (choice) {
     case 1:
         console.log('Sunday')
